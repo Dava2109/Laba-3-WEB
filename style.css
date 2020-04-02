@@ -1,0 +1,110 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+    background: url(img/bg-main.png) repeat;
+    background-attachment: fixed
+} 
+div {
+ box-sizing: border-box;   
+}
+.container1 {
+	width: 750px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.contacts h3{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn.btn-outline-success{
+    background-color: #28a745;
+    color: #fff;
+}
+
+
+.btn.btn-primary{
+    margin-top: 13px;
+    margin-left: 50px;
+}
+
+.btn-header{
+    margin-right: 46px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-bord{
+    height: 340px;
+    width: 250px;
+}
+
+.card-img-top{
+    padding: 40px 10px;
+    height: 200px;
+}
+
+.btn.btn-secondary{
+    background: #343a40;
+    height: 50px;
+}
+
+.btn.btn-primary{
+    margin-top: 0;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.bd-example{
+    height: 500px;
+    width: 500px;
+}
+.headers{
+    margin: 50px 0 0 100px;
+}
+
+.headers dt{
+    margin-top: 10px;
+}
+
+.headers dd{
+    margin-top: 5px;
+    margin-left: 60px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.row-form{
+    margin: 50px 0 0 50px;
+}
+
+.form-row{
+    margin: 10px 0;
+}
+
+.btn-order.btn.btn-primary{
+    margin-top: 5px;
+    margin-left: 165px;
+}
+
+.form-horizontal{
+  padding: 50px;
+  position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
